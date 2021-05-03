@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MathematicsOut.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Amit.Project.ListOperations\Amit.Project.ListOperations.csproj" />
+    <ProjectReference Include="..\Amit.Project.Mathematics\Amit.Project.Mathematics.csproj" />
+  </ItemGroup>
+
+</Project>
